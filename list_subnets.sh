@@ -24,8 +24,8 @@ SUB="az-$tennant-$sub"
 RG="$ZONE-network"
 VNET="$RG-vnet"
 
-RoutTable="$tennant-$location"  # added the generic route table...
-
+RouteTable="$tennant-$location"  # added the generic route table...
+echo $RouteTable                 # added outputting the route table name to screen
 
 ##########################
 # set the sub            #
